@@ -1,12 +1,7 @@
 class Main {
-    public static void swap(int[] array, int x, int y) {
-        int temp = array[x];
-        array[x] = array[y];
-        array[y] = temp;
-    }
-
   // Sorting Logic 
   // ---------------------------------------------------
+    
     public static void sort(int[] array, int n) {
         for(int i = 0; i < n - 1; i++) {
             int minIndex = i;
@@ -18,7 +13,13 @@ class Main {
             }
         }
     }
+    
   // ---------------------------------------------------
+    public static void swap(int[] array, int x, int y) {
+        int temp = array[x];
+        array[x] = array[y];
+        array[y] = temp;
+    }
     public static void main(String[] args) {
         int[] array = {5, 3, 1, 4, 2};
         int n = array.length;
