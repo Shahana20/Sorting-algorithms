@@ -9,9 +9,9 @@
 ### Space Complexity: O(1) 
 
 ## Dry Run
-**Initial List:**
-[        | 5 3 1 4 2]
-  Sorted    Unsorted
+**Initial List:**  
+[&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp; 5 3 1 4 2&nbsp;]  
+&nbsp;**Sorted**   &nbsp;&nbsp;**Unsorted**
 
 1. **First Iteration:**
    - The initial list is: `[5 3 1 4 2]`.
